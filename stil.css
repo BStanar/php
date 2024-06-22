@@ -1,0 +1,161 @@
+.divIndex{
+    display: flex;
+    flex-direction: column;
+}
+
+.divLogoDugme{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divSelektiTabele{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:  20px;
+}
+.divSelekti{
+    display: flex;
+}
+
+.divTabele{
+    margin-top: 20px;
+    font-family: cursive;
+    width: 70%
+}
+
+.btnAddIndex{
+    height: 30px;
+    width: 120px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    background-color: darkgrey;
+}
+
+.logoIndex{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.divDodajPacijenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDodajPacijenta{
+    width: 25%;
+    margin-right: 75px;
+}
+
+.tabelaDodajPacijenta tr{
+    height: 5vh;
+}
+
+.tekstInputi{
+    width:90%;
+}
+
+.dejtInput{
+    width: 92%;
+}
+
+.selekti{
+    width: 230px;
+}
+
+.dugmici{
+    height: 30px;
+    width: 120px;
+    background-color: darkgrey;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+
+.errorNotice{
+    border-radius: 5px;
+    border: 1px solid #b13614;
+    background-color: rgba(242, 74, 24, 0.71);
+    color: #b13614;
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    order: 3;
+}
+
+.successNotice{
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: lightgreen;
+    color: darkgreen;
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    order: 3;
+}
+
+.tabelaZarazenih{
+    width: 100%;
+}
+
+.tabelaZarazenih td:nth-child(2){
+    text-align: right;
+}
+
+.tabelaPacijenata{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.tabelaPacijenata th, .tabelaPacijenata td{
+    border: 1px solid grey;
+}
+
+.tabelaPacijenata th{
+    background-color: darkgrey;
+    padding: 10px 15px;
+}
+
+.tabelaPacijenata tr{
+    height: 7vh;
+}
+
+.razmakIzmedjuSelekta{
+    width: 5vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tabelaPacijenata tr:hover{
+    font-weight: bold;
+    background-color: #b8b894;
+}
+
+.tabelaPacijenata td:nth-child(5){
+    text-transform: uppercase;
+}
+
+.tabelaPacijenata td:nth-child(5):hover{
+    outline: 1px solid red;
+    cursor: pointer;
+}
+
+.tabelaPacijenata td:nth-child(3){
+    width: 150px;
+}
+
+
